@@ -7,7 +7,7 @@ Infer script added, feel free to use it!
 
 ## Good open-source reasoning datasets  
 Datasets below show improvements on ERIQ score when training my model with.  
-These dataset have multiple annotations towards one scene, so try sampling to get better results.  
+These datasets have multiple annotations towards one scene, so try sampling to get better results.  
 1、AgibotWorld-Beta:https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta  
 2、EO-Date1.5M:https://huggingface.co/datasets/IPEC-COMMUNITY/EO-Data1.5M  
 3、ROBOVQA:https://huggingface.co/datasets/Tianli/robovqa  
