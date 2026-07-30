@@ -60,14 +60,12 @@ N frames (currently 5) are randomly sampled from each phase and annotated with V
 
 ```
                                                     ░░ Transition Phase   ██ Execution Phase
-
-Model           Last action is finished, the     continue the       Roll is on the table. The
-Predictions     next action is to apply...       current task...    next action is to handover...
-                                 ⬇                    ⬇                  ⬇
-│░░░░█████████████████████████░░░░░░░███████████████████████████████████░░░░░░░██████████████
-└───────────────────────────────┘─────────────────────────────────────────┘─────────────────┘
-
- remove bar code from label roll  apply bar code label, place roll on table     handover
+Model           Last action is finished, the        continue the       Roll is on the table. The
+Predictions     next action is to apply...          current task...    next action is to handover...
+                                     ⬇                    ⬇                  ⬇
+│░░░░█████████████████████████████░░░░░░░███████████████████████████████████░░░░░░░██████████████
+└───────────────────────────────────┘─────────────────────────────────────────┘─────────────────┘
+    remove bar code from label roll |apply bar code label, place roll on table|    handover
 ```
 
 ### VQA Annotation Format
