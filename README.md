@@ -44,10 +44,10 @@ Embodied Reasoning VQA is designed to improve embodied reasoning abilities, cove
 
 Business data refers to egocentric, UMI, and robot data that contains subtask annotations. This data requires secondary processing on top of the original source data to produce subtask decomposition and state monitoring training samples.
 
-| Data Source | Scale | Visual Input | Sampling Strategy | Data Type | Processed | In Training | Other Issues |
+| Data Source | Scale | Visual Input | Sampling Strategy | Data Type | Processed | Training | Other Issues |
 |---|---|---|---|---|---|---|---|
-| AgiBotWorld-Beta | 1M episodes | Images | Sample 10 episodes per task | Robot | Yes | Yes | Only 217 unique tasks; deduplication needed |
-| genrobot | 1.1M subtasks / 2190 hrs | Fisheye images | Scene-balanced sampling | UMI | Yes | Yes | both open-soure and close-source |
+| AgiBotWorld-Beta | 1M episodes | Video | Sample 10 episodes per task | Robot | Yes | Yes | Only 217 unique tasks; deduplication needed |
+| genrobot | 1.1M subtasks / 2190 hrs | Fisheye tri-view video | Scene-balanced sampling | UMI | Yes | Yes | both open-soure and close-source |
 | EgoExo4D | — | Video | — | Egocentric | Yes | No | — |
 | Ego4D | — | Video | — | Egocentric | Yes | No | — |
 | Xperience | — | Video | — | Egocentric | No | No | — |
