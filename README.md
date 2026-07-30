@@ -143,4 +143,4 @@ These datasets have multiple annotations towards one scene, so try sampling to g
 
 ## Challenges
 
-Subtask decomposition and progress understanding rely on context. The key question is: how to efficiently and cleanly inject context / memory into the model without hacks.
+Subtask decomposition and progress understanding rely on context. The key question is: how to efficiently and cleanly inject context / memory into the model without hacks. Maybe we can use agent as a memory component to produce necessary memory.
