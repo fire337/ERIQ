@@ -51,6 +51,8 @@ Business data refers to egocentric, UMI, and robot data that contains subtask an
 | EgoExo4D | — | Video | — | Egocentric | Yes | No | — |
 | Ego4D | — | Video | — | Egocentric | Yes | No | — |
 | Xperience | — | Video | — | Egocentric | No | No | — |
+| egoverse | — | Video | — | Egocentric | No | No | — |
+| egolive | — | dual view Video | — | Egocentric | No | No | — |
 
 ### Annotation Method
 
