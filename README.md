@@ -1,12 +1,6 @@
 This is a fork of original ERIQ repo to help evaluate reasoning abilities.  
 Infer script added, feel free to use it!  
-
-## Good open-source reasoning datasets  
-Datasets below show improvements on ERIQ score when training my model with.  
-These datasets have multiple annotations towards one scene, so try sampling to get better results.  
-1、AgibotWorld-Beta:https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta  
-2、EO-Date1.5M:https://huggingface.co/datasets/IPEC-COMMUNITY/EO-Data1.5M  
-3、ROBOVQA:https://huggingface.co/datasets/Tianli/robovqa  
+Training method of high level reasoning VLM is also included.
 
 # HighLevel VLM Training
 
@@ -132,6 +126,13 @@ Currently using Qwen3-4B for VQA LoRA fine-tuning, with offline evaluation on th
 The official Qwen GitHub fine-tuning code only supports up to QWEN3. Fine-tuning QWEN3.5 requires switching to ms-swift.
 
 - https://github.com/modelscope/ms-swift/blob/main/docs/source/BestPractices/Qwen3_5-Best-Practice.md
+
+### Good dataset after finetuning 
+Datasets below show improvements on ERIQ score when training my model with.  
+These datasets have multiple annotations towards one scene, so try sampling to get better results.  
+1、AgibotWorld-Beta:https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta  
+2、EO-Date1.5M:https://huggingface.co/datasets/IPEC-COMMUNITY/EO-Data1.5M  
+3、ROBOVQA:https://huggingface.co/datasets/Tianli/robovqa  
 
 ## Challenges
 
