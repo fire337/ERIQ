@@ -147,6 +147,12 @@ These datasets have multiple annotations towards one scene, so try sampling to g
 2、EO-Date1.5M:https://huggingface.co/datasets/IPEC-COMMUNITY/EO-Data1.5M  
 3、ROBOVQA:https://huggingface.co/datasets/Tianli/robovqa  
 
+## Online Inference Loop
+Prompt VLM with task decomposition and subtask progress monitor asynchronously: task decomposition predicts next subtask only when the previous subtask is finished.
+Two situations should be trated specially:
+At the beginning of the task, task decomposition predicts subtask directly because no previous subtask is performed.
+Task finished should also be predicted when all subtasks are finished and the goal of overall task is satisfied.
+
 ## Challenges
 
 Subtask decomposition and progress understanding rely on context. The key question is: how to efficiently and cleanly inject context / memory into the model without hacks. Maybe we can use agent as a memory component to produce necessary memory.
