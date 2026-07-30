@@ -63,7 +63,7 @@ N frames (currently 5) are randomly sampled from each phase and annotated with V
 
 Model           Last action is finished, the     continue the       Roll is on the table. The
 Predictions     next action is to apply...       current task...    next action is to handover...
-                                  ⬇                     ⬇                   ⬇
+                                 ⬇                    ⬇                  ⬇
 │░░░░█████████████████████████░░░░░░░███████████████████████████████████░░░░░░░██████████████
 └───────────────────────────────┘─────────────────────────────────────────┘─────────────────┘
 
