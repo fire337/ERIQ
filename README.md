@@ -16,7 +16,7 @@ HighLevel VLM is fundamentally a next-token-prediction paradigm for embodied sce
 >
 > Embodied Reasoning VQA
 >
-> Subtask Decomposition & State Monitoring Business Data
+> Subtask Decomposition & State Monitoring Related Data
 
 ### Inventory of Available Data
 
