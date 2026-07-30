@@ -54,12 +54,13 @@ Business data refers to egocentric, UMI, and robot data that contains subtask an
 
 ### Annotation Method
 
-As shown below, for each subtask boundary point ±200 ms we define a **Transition Phase**; all other regions are **Execution Phase**.
+As shown below, within ±200 ms of each subtask boundary, we define a **Transition Phase**; all other regions are **Execution Phase**.
 
 N frames (currently 5) are randomly sampled from each phase and annotated with VQA.
 
 ```
-                                                    ░░ Transition Phase   ██ Execution Phase
+                                                       ░░ Transition Phase   ██ Execution Phase
+
 Model           Last action is finished, the        continue the       Roll is on the table. The
 Predictions     next action is to apply...          current task...    next action is to handover...
                                      ⬇                    ⬇                  ⬇
