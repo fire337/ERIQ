@@ -137,6 +137,10 @@ The official Qwen GitHub fine-tuning code only supports up to QWEN3. Fine-tuning
 - https://github.com/modelscope/ms-swift/blob/main/docs/source/BestPractices/Qwen3_5-Best-Practice.md
 
 ## Evaluation Benchmark and datasets with improvements
+### Offline Benchmark
+ERIQ: - https://github.com/GenieReasoner/ERIQ
+
+### Good Datasets
 Datasets below show improvements on ERIQ score when training my model with.  
 These datasets have multiple annotations towards one scene, so try sampling to get better results.  
 1、AgibotWorld-Beta:https://huggingface.co/datasets/agibot-world/AgiBotWorld-Beta  
