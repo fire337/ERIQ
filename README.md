@@ -47,12 +47,12 @@ Business data refers to egocentric, UMI, and robot data that contains subtask an
 | Data Source | Scale | Visual Input | Sampling Strategy | Data Type | Processed | Training | Other Issues |
 |---|---|---|---|---|---|---|---|
 | AgiBotWorld-Beta | 1M episodes | Video | Sample 10 episodes per task | Robot | Yes | Yes | Only 217 unique tasks; deduplication needed |
-| genrobot | 1.1M subtasks / 2190 hrs | Fisheye tri-view video | Scene-balanced sampling | UMI | Yes | Yes | both open-soure and close-source |
+| genrobot | 1.1M subtasks / 2190 hrs | Fisheye Tri-view Video | Scene-balanced sampling | UMI | Yes | Yes | both open-soure and close-source |
 | EgoExo4D | — | Video | — | Egocentric | Yes | No | — |
 | Ego4D | — | Video | — | Egocentric | Yes | No | — |
 | Xperience | — | Video | — | Egocentric | No | No | — |
 | egoverse | — | Video | — | Egocentric | No | No | — |
-| egolive | — | dual view Video | — | Egocentric | No | No | — |
+| egolive | — | Dual-view Video | — | Egocentric | No | No | close-source |
 
 ### Annotation Method
 
