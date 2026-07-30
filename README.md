@@ -58,9 +58,17 @@ As shown below, for each subtask boundary point ±200 ms we define a **Transitio
 
 N frames (currently 5) are randomly sampled from each phase and annotated with VQA.
 
-![VQA Annotation: Subtask Phase Diagram](subtask_annotation.png)
+```
+                                                    ░░ Transition Phase   ██ Execution Phase
 
-*Pic Qoute from Nvidia*
+Model           Last action is finished, the     continue the       Roll is on the table. The
+Predictions     next action is to apply...       current task...    next action is to handover...
+                                  ⬇                     ⬇                   ⬇
+│░░░░█████████████████████████░░░░░░░███████████████████████████████████░░░░░░░██████████████
+└───────────────────────────────┘─────────────────────────────────────────┘─────────────────┘
+
+ remove bar code from label roll  apply bar code label, place roll on table     handover
+```
 
 ### VQA Annotation Format
 
