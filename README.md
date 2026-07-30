@@ -1,4 +1,3 @@
-# ERIQ Benchmark: Embodied Reasoning Intelligence Quotient  
 This is a fork of original ERIQ repo to help evaluate reasoning abilities.  
 Infer script added, feel free to use it!  
 
