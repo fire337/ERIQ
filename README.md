@@ -125,7 +125,7 @@ vqa_item = {
 
 ### QWEN3
 
-Currently using Qwen3-4B for VQA LoRA fine-tuning, with offline evaluation on the ERIQ benchmark.
+Currently using Qwen3-4B for VQA LoRA fine-tuning, with validation on the ERIQ benchmark.
 
 - https://github.com/QwenLM/Qwen3-VL/tree/main/qwen-vl-finetune
 - https://github.com/GenieReasoner/ERIQ
@@ -138,7 +138,7 @@ The official Qwen GitHub fine-tuning code only supports up to QWEN3. Fine-tuning
 
 ## Evaluation Benchmark and datasets with improvements
 ### Offline Benchmark
-ERIQ: - https://github.com/GenieReasoner/ERIQ
+ERIQ:  https://github.com/GenieReasoner/ERIQ
 
 ### Good Datasets
 Datasets below show improvements on ERIQ score when training my model with.  
